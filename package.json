@@ -7,7 +7,9 @@
   "license": "MIT",
   "author": "Matt McElwee <mubatt@wyopub.com>",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -d"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
