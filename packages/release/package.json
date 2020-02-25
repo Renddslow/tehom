@@ -1,0 +1,13 @@
+{
+  "name": "@tehom/release",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Fine-grained monorepo release automation.",
+  "repository": "https://github.com/Renddslow/tehom",
+  "license": "MIT",
+  "author": "Matt McElwee <mubatt@wyopub.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -d"
+  }
+}
